@@ -2,25 +2,91 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bootstrap Test LayOut</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./assets/css/aboutstyle.css">    
     </head>
 
     <body>
-        <img src="img_girl.jpg" style="width:100%;"> 
-        <h2>Show Different Images Depending on Browser Width</h2>
-        <p>Resize the browser width and the image will change at 600px and 1500px.</p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                   <span class="navbar-brand mb-1 h1">Wendy Hintzen</span>
+                   <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"> -->
+                    <!-- aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                   <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home/About</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-                <picture>
-                <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-                <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-                <source srcset="flowers.jpg">
-                <img src="img_flowers.jpg" alt="Flowers" style="width:auto;">
-                </picture>
-                        
+             <!-- this section is the text Portfolio with a horizantal line (hr) -->
+            <div class="container-body padding">
+                <div class="row padding">
+                    <div class="col-12">
+                        <h1 class="display-5">About Me</h1>
+                        <hr>
+                    </div>
+                   
+                       <!-- This is the Body section -->
+                                            
+                    <div class="col-lg-6">
+                        <!-- <img src="./assets/images/IMG_4628.jpg" alt="MyPicture" style=height:200px width:200px 
+                                 class="img-fluid"/> -->
+                           <img src="./assets/images/IMG_4628.jpg" style="max-width:100%;height:260px;" alt="MyPicture" 
+                                 class="img-fluid"/>                               
+                    </div>
+                    <div class="col-lg-6">
+                        <p>
+                            An analytical and meticulous IT business professional with demonstrated expertise in strategic planning, 
+                            business-IT strategy alignment, business transformation, systems integration, program/project management, 
+                            customer relationship/organizational development, strategic planning, process improvement and resource management.  
+                            Worked in Agile environment as a Solution Delivery Manager/Project Lead and as Scrum Master for two Kanban teams.  
+                            Adept at managing complex and highly visible projects to successful completion.  Driven to achieve results and 
+                            exceed expectations to ensure the long-term and sustained success of an organization.
+                        </p>
+                        <p>
+                            15 years working in Data Warehousing, with over 10 years in Project Management/Project Lead experience, along with 
+                            4 years as a Scrum Master.  I am currently attending Rutgers University Web Development Coding Stack.
+                        </p>                                    
+                    </div>
+                </div>                   
+                    <!-- This section connect to Social Media -->
+                <div class="row text-center padding">
+                    <div class="col-12">
+                        <hr>
+                        <h2>Connect</h2>
+                    </div> 
+                    <div class="col-12 social padding">
+                        <!-- <a href="#"><i class="fa fa=facebook"></i></a> -->
+                        <a href="https://www.facebook.com/wendy.hintzen.7/" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/wendy-hintzen-999b7583/" target="_blank" class="fa fa-linkedin"></a>
 
+                    </div>                  
+                </div>
+            </div>
+            <footer >
+                <p><small>
+                    &copy; 2020 About Me.
+                </small></p>
+
+            </footer>
     </body>
 </html>
