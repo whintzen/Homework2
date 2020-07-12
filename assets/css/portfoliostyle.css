@@ -1,0 +1,88 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+html, body {
+  height:100%;
+}
+
+body {
+  font-size: 15px;
+  color: black;
+ background-color: lavenderblush;
+}
+
+  /* set the padding for the page */
+.padding {
+  padding: 20px;
+}
+
+.navbar {
+  padding: 15px;
+  display: block;
+  text-decoration: none; 
+}
+
+/* Set the spacing between the links */
+.navbar ul {
+  padding-right: 20px;
+  margin-right: 20px;
+  font-size:  20px;
+}
+
+/* Change the color of links on hover*/
+a:hover  { 
+  background:blue;
+  color: white;
+  transition: .10s;
+} 
+
+.container-body {
+  min-height: 100%;
+  overflow: auto;
+  padding-bottom: 100px;
+  width: 60%; 
+  margin-top: 30px;
+  margin-left: 30px;
+  border-style: outset; 
+ background-color: blanchedalmond;
+  }
+
+/* Setting for the horizantal rule */
+hr {
+  border-top: 1px solid;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+  /* Set the margin between each card image */
+  .card {
+   margin-bottom: 20px;
+  
+  }
+
+  /* Set the background color and how far up on the image it should start */
+  .card-body {
+    background-color: lightcoral;
+    margin-block-end: 20px;
+    color: rgb(21, 77, 151);
+  }
+
+  /* Set the footer to remain at the bottom */
+  footer {
+    background-color:darkgray;
+    position: relative;
+    width:60%;
+    height: 60px;    
+    margin-left: 30px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    text-align: center;
+    clear: both;
+  }
+ 
